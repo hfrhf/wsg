@@ -1,0 +1,940 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+:root{
+    --color-primary:#566AED;
+    --color-black:#243261;
+    --color-pr:#3B4E89;
+}
+
+.mt-15{
+    margin-top: 150px;
+}
+
+.ml-3{
+    margin-left: 30px;
+}
+
+.btn{
+    background: linear-gradient(180deg, #566AED 0%, #7249FB 100%);
+    border: none;
+    font-family: "effra md";
+    font-size: 16px;
+    color: white;
+    border-radius: 16px;
+    text-align: center;
+}
+.title-h2{
+    color: #566AED;
+
+font-family: "effra md";
+font-size: 24px;
+
+
+}
+.title-p{
+    color: #3B4E89;
+
+    font-family: "effra rg";
+    font-size: 16px;
+
+    line-height: 24px; /* 150% */
+
+
+}
+.box-fea img{
+    
+}
+
+  
+.box-fea:hover  svg path  {
+    fill:white; /* تغيير اللون عند الهوفر */
+  }
+
+/** header **/
+.logo img{
+    width: 99.591px;
+height: 29.828px;
+}
+
+
+
+header{
+    background-image: url("img/landing.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    padding-top: 20px;
+    position: relative;
+    
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+}
+.nav-ul li a{
+    color: white;
+    font-size: 16px;
+    font-family: "effra md";
+
+
+}
+.nav-ul li{
+    padding-left: 15px;
+}
+.login h2{
+    color: white;
+    font-size: 16px;
+    font-family: "effra md";
+    
+
+}
+.login i{
+    color: white;
+    font-size: 16px;
+    
+    
+
+}
+.btn-acc{
+    width: 173px;
+    height: 48px;
+}
+.btn-acc-2{
+
+    width: 215px;
+    height: 48px;
+
+
+}
+.landing{
+    padding-top: 50px;
+}
+
+.landing h1{
+    color: #FFF;
+
+font-family: "effra md";
+font-size: 32px;
+
+line-height: 43px; 
+}
+.landing p{
+    color: #FFF;
+
+font-family: "effra md";
+font-size: 16px;
+line-height: 24px; 
+}
+.menu{
+    display: none;
+}
+
+.laptop{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+
+
+@media (max-width:1400px){
+
+}
+
+@media (max-width:1200px){
+    .nav-ul li a{
+   
+        font-size: 14px;
+        
+    
+    
+    }
+    .nav-ul li{
+        padding-left: 13px;
+    }
+    .login h2{
+
+        font-size: 14px;
+     
+        
+    
+    }
+    .login i{
+        
+        font-size: 14px;
+        
+        
+    
+    }
+    .btn-account button{
+    
+        font-size: 14px;
+        width: 130px;
+        height: 40px;
+        
+    }
+    .logo img{
+        width: 80px;
+    height: 20px;
+    }
+
+
+}
+@media (max-width:968px){
+    
+    nav{
+        width: 90%;
+       
+    }
+    .nav-ul li a{
+   
+        font-size: 12px;
+        
+    
+    
+    }
+    .content-nav{
+        gap: 20px !important;
+    }
+    .nav-ul li{
+        padding-left: 10px;
+    }
+    .login h2{
+
+        font-size: 12px;
+     
+        
+    
+    }
+    .login i{
+        
+        font-size: 12px;
+        
+        
+    
+    }
+    .login {
+        
+        gap: 10px !important;
+        
+        
+    
+    }
+    .btn-account button{
+    
+        font-size: 12.5px;
+        width: 155px;
+        height: 43px;
+        
+    }
+    .logo img{
+        width: 90px;
+    height: 25px;
+    }
+    
+}
+
+
+
+
+
+@media (max-width:767px){
+    header {
+        background-attachment: scroll; /* أو يمكنك استخدام background-attachment: fixed; حسب تفضيلك */
+    }
+    .landing h1{
+        margin-bottom: 40px;
+    }
+    .landing p{
+        margin-bottom: 40px;
+    }
+
+    .nav-ul{
+        display: none !important;
+    }
+    .dn{
+        display: none ;
+    }
+    .login-h2{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .login-i{
+        font-size: 25px !important;
+
+    }
+    .laptop{
+        width: 80%;
+        bottom: -15px;
+    }
+
+
+
+    
+}
+@media (max-width:576px){
+    .landing h1{
+
+    font-size: 24px;
+    
+
+    }
+    .landing p{
+
+    font-size: 12px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.why{
+    padding-top: 200px;
+}
+
+
+
+.box-why{
+    border-radius: 9px;
+border: 1px solid rgba(144, 144, 144, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.03);
+padding: 10px;
+}
+
+.box-why h2{
+    color: #243261;
+text-align: right;
+
+font-family: "effra md";
+font-size: 24px;
+
+}
+.box-why img{
+    width: 62px;
+height: 62px;
+
+}
+
+
+.box-why:hover{
+    border-radius: 9px;
+border: 1px solid rgba(144, 144, 144, 0.10);
+background: #566AED;
+box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.03);
+}
+.box-why:hover h2{
+color: white;
+
+}
+.box-why:hover svg path{
+    fill: white;
+}
+
+
+
+
+
+@media (max-width:1200px){
+    .box-why h2{
+
+        font-size: 22px;
+        
+        }
+    
+
+}
+@media (max-width:968px){
+    .box-why h2{
+
+        font-size: 21px;
+        
+        }
+    
+    
+}
+
+@media (max-width:767px){
+    .box-why h2{
+
+        font-size: 19px;
+        
+        }
+
+    
+}
+@media (max-width:576px){
+    .box-why h2{
+
+    font-size: 17px;
+    
+    }
+    .box-why img{
+        width: 62px;
+    height: 62px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+.features{
+    padding-top: 200px;
+}
+.box-fea{
+    border-radius: 9px;
+border: 1px solid rgba(144, 144, 144, 0.10);
+background: #FFF;
+width: 272px;
+height: 186px;
+flex-direction: column;
+
+padding: 20px;
+overflow: hidden;
+transition: 0.4s ease;
+
+
+
+}
+.box-fea img{
+    width: 32px;
+height: 32px;
+
+}
+.box-fea h2{
+    color: #243261;
+text-align: right;
+
+font-family: "effra rg";
+font-size: 24px;
+
+}
+.box-fea p{
+    color: #3B4E89;
+text-align: right;
+font-family: "effra rg";
+font-size: 16px;
+
+}
+.box-fea:hover{
+    border-radius: 9px;
+border: 1px solid rgba(144, 144, 144, 0.10);
+background: #566AED;
+
+}
+.box-fea:hover h2{
+    color: white;
+}
+
+.box-fea:hover p{
+    color: white;
+}
+
+
+
+@media (max-width:1200px){
+
+    
+
+}
+@media (max-width:968px){
+
+    
+    
+}
+
+@media (max-width:767px){
+    .box-fea{
+        border-radius: 9px;
+    border: 1px solid rgba(144, 144, 144, 0.10);
+    background: #FFF;
+    width: 100%;
+    height: 186px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    
+    
+    }
+ 
+
+    .box-fea h2{
+       
+    text-align: center;
+    
+   
+    font-size: 24px;
+    
+    }
+    .box-fea p{
+       
+    text-align: center;
+    
+    font-size: 16px;
+    
+    }
+
+    
+}
+@media (max-width:576px){
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.who{
+    padding-top: 200px;
+}
+
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr; /* العمود الأول يأخذ مكانين والعمودين الآخرين يأخذون مكان واحد لكل منهما */
+
+    gap: 20px; /* تباعد بين العناصر */
+  }
+  
+  .grid-item {
+
+    padding: 20px;
+    text-align: center;
+  }
+
+.titre-h2{
+color: #566AED;
+text-align: right;
+font-family: "effra rg";
+font-size: 24px;
+
+}
+.titre-p{
+color: #3B4E89;
+text-align: right;
+font-family: "effra rg";
+font-size: 16px;
+
+}
+
+
+@media (max-width:1200px){
+    .titre-h2{
+
+        font-size: 23px;
+        
+        }
+        .titre-p{
+
+        font-size: 15.5px;
+        
+        }
+
+
+    
+
+}
+@media (max-width:968px){
+
+
+    
+    
+}
+
+@media (max-width:767px){
+
+
+    
+}
+@media (max-width:576px){
+
+
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*slider*/
+
+
+
+.sliderr{
+    position: relative;
+    padding-top: 80px;
+ }
+  .card{
+    border-radius: 9px;
+    border: 1px solid rgba(144, 144, 144, 0.10);
+    background: #FFF;
+    padding: 30px;
+
+    
+    
+  }
+  .card h2{
+    color: #3B4E89;
+text-align: center;
+font-family: "effra md";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+  }
+
+.card img{
+    width: 40px;
+height: 40px;
+margin: auto;
+}
+.small-p{
+    color: rgba(59, 78, 137, 0.70);
+text-align: center;
+font-family: "effra rg";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 200% */
+}
+ 
+  .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{bottom: -50px;}
+  .swiper-pagination{
+    position: absolute;
+    
+    
+    
+  
+ 
+  
+
+  }
+  
+  .swiper-pagination-bullet {
+
+  height: 10px; /* ارتفاع النقطة */
+  width: 10px; /* عرض النقطة */
+  border-radius: 50%; /* دائرية الشكل */
+  background: #bbbbbb; /* لون النقطة */
+  margin: 0 5px; /* المسافة بين النقاط */
+  opacity: 0.5; /* شفافية النقطة */
+  transition: opacity 0.3s ease; /* تحويل تدريجي للشفافية عند التحويل بين الشرائح */
+  cursor: pointer; /* مؤشر الفأرة عند التحويل بين النقاط */
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1; /* شفافية النقطة النشطة */
+  background-color: var(--color-primary);
+}
+/* لون السلايد الوسطي */
+.swiper-slide.active {
+    background-color: var(--color-primary); /* لون مغاير */
+    color: white; /* لون النص */
+
+
+  }
+  .active p{
+    color: white ;
+  }
+  .active h2{
+    color: white ;
+  }
+
+
+  
+
+/*end slider*/
+
+
+.begin{
+    width: 943px;
+height: 206px;
+background-image: url("img/backgorund.png");
+background-repeat: no-repeat;
+background-size: cover;
+margin: auto;
+position: relative;
+bottom: -50px;
+z-index: 1;
+margin-top: 100px;
+}
+.begin h1{
+    color: #FFF;
+
+font-family: "effra md";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px; /* 181.25% */
+}
+.btn-begin button{
+    border-radius: 16px;
+background: #FFF;
+color: #566AED;
+border: none;
+width: 215px;
+height: 48px;
+
+
+font-family: "effra bold";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.footer{
+    background: #243261;
+   
+ 
+    position: relative;
+}
+.footer p{
+    color: white;
+}
+.alix{
+    font-family: 'Alexandria', sans-serif;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+.title-footer{
+    color: #FFF;
+
+font-family: "effra md";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+
+.footer::before {
+    content: "";
+    display: block;
+    background-image: url("img/mask.png");
+    
+    background-size: cover;
+    width: 100%;
+    height: 100%; /* ارتفاع الصورة */
+    position: absolute;
+
+    z-index: 0; /* وضع الصورة خلف الـ footer */
+  }
+
+  .icons svg path {
+  cursor: pointer;
+    transition: fill 0.3s ease; /* انتقال سلس للتغييرات */
+
+  }
+  
+
+
+
+@media (max-width:1200px){
+    
+
+.begin{
+ width: 900px;
+height: 196px;
+}
+.begin h1{
+
+font-size: 27px;
+line-height: 50px; 
+
+}
+.btn-begin button{
+width: 180px;
+height: 45px;
+font-size: 15px;
+
+}
+
+
+
+    
+
+}
+@media (max-width:968px){
+
+    .begin{
+        width: 850px;
+       height: 180px;
+       }
+       .begin h1{
+       
+       font-size: 25px;
+       line-height: 40px; 
+       
+       }
+       .btn-begin button{
+       width: 160px;
+       height: 40px;
+       font-size: 14.5px;
+       
+       }
+    
+    
+}
+
+@media (max-width:767px){
+    .begin{
+        width: 800px;
+       height: 150px;
+       }
+       .begin h1{
+       
+       font-size: 23px;
+       line-height: 30px; 
+       
+       }
+       .btn-begin button{
+       width: 150px;
+       height: 38px;
+       font-size: 14px;
+       
+       }
+
+
+    
+}
+@media (max-width:576px){
+.footer{
+    text-align: center;
+}
+.begin{
+ width: 100%;
+ height: 200px;
+ bottom: -8px;
+ background-image: url("img/mob.png");
+
+
+ flex-direction: column;
+ border-radius: 0px;
+   }
+   .begin h1{
+   
+   font-size: 15px;
+   line-height: 30px; 
+   
+   }
+   .btn-begin button{
+   width: 140px;
+   height: 35px;
+   font-size: 12px;
+   
+   }
+   .hr{
+    width: 50%;
+   }
+
+ 
+    
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "effra md";
+    src: url(fonts/alfont_com_AlFont_com_Effra_Md-1.ttf);
+}
+@font-face {
+    font-family: "effra bold";
+    src: url(fonts/alfont_com_Dalton-Maag-Effra-Bold.ttf);
+}
+@font-face {
+    font-family: "effra rg";
+    src: url(fonts/alfont_com_Effra_Rg.ttf);
+}
